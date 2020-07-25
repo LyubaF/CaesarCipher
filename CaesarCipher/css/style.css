@@ -1,24 +1,56 @@
 body {
 	top: 0px;
 	margin: 0px;
-	background-color: #4B3C2C;
-	}
+	background-image: url('../img/background2.jpg');
+}
 
-h3, p, b {
-	font-family: monospace;
+ p, b {
+	font-family: Arno Pro Smbd;
+	font-family: bold;
 	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1px;
 
 }
 
-#description {
-	display: block;
-	margin-right: 0px;
-	padding: 0px;
-	float: right;
+h2 {
+	font-family: Arno Pro Smbd;
+	background-image: radial-gradient(yellow, #4F624F);
+	border-radius: 15px;
+	border-color: #fff;
+	border: solid 1px;
+	font-size: 30px;
+	font-family: bold;
 }
-#circle {
-	margin: 10px;
-	padding: 10px;
-	width: 150px;
-	height: 150px;
+
+img {
+	opacity: 0.4;
+	margin-right: 10px;
+}
+
+textarea {
+	background-color: rgba(150, 150, 50, 0.3);
+	color: #fff;
+}
+
+.divarea {
+	margin-top: 2px;
+	padding: 15px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.boxExample {
+	position: absolute;
+	top: 310px;
+	right: 55px;
+	opacity: 0.6;
+	text-align-last: center;
+	color: #fff;
+	width: 350px;
+	height: auto;
+	background-color: rgba(150, 150, 50, 0.3);
+	border: 3px solid #fff;
+	border-radius: 15px;
 }
